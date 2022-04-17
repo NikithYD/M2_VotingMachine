@@ -1,0 +1,257 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="MCU" CircId="mega328-3" mainComp="false" Show_id="true" Show_Val="false" Pos="848,584" rotation="0" hflip="1" vflip="1" label="mega328-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="GccApplication6.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Hd44780" CircId="Hd44780-5" mainComp="false" Show_id="true" Show_Val="false" Pos="916,424" rotation="0" hflip="1" vflip="1" label="Hd44780-5" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Lines" Cols="16 _Chars." />
+
+<item itemtype="Push" CircId="Push-52" mainComp="false" Show_id="false" Show_Val="false" Pos="608,548" rotation="0" hflip="1" vflip="1" label="Push-52" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Ground" CircId="Ground-54" mainComp="false" Show_id="false" Show_Val="false" Pos="556,908" rotation="0" hflip="1" vflip="1" label="Ground-54" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-55" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="824,440" rotation="90" hflip="1" vflip="1" label="Resistor-55" idLabPos="-16,-24" labelrot="0" valLabPos="-7,48" valLabRot="270" Resistance="10000 Ω" />
+
+<item itemtype="Push" CircId="Push-61" mainComp="false" Show_id="false" Show_Val="false" Pos="608,628" rotation="0" hflip="1" vflip="1" label="Push-61" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Resistor" CircId="Resistor-65" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="752,448" rotation="90" hflip="1" vflip="1" label="Resistor-65" idLabPos="-16,-24" labelrot="0" valLabPos="-18,-23" valLabRot="90" Resistance="10000 Ω" />
+
+<item itemtype="Rail" CircId="Rail-162" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="596,404" rotation="0" hflip="1" vflip="1" label="Rail-162" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-183" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="724,448" rotation="90" hflip="1" vflip="1" label="Resistor-55" idLabPos="-16,-24" labelrot="0" valLabPos="-7,48" valLabRot="270" Resistance="10000 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-184" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="660,452" rotation="90" hflip="1" vflip="1" label="Resistor-55" idLabPos="-16,-24" labelrot="0" valLabPos="-7,48" valLabRot="270" Resistance="10000 Ω" />
+
+<item itemtype="Push" CircId="Push-197" mainComp="false" Show_id="false" Show_Val="false" Pos="608,700" rotation="0" hflip="1" vflip="1" label="Push-61" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Push" CircId="Push-198" mainComp="false" Show_id="false" Show_Val="false" Pos="612,780" rotation="0" hflip="1" vflip="1" label="Push-61" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Capacitor" CircId="Capacitor-199" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="600,512" rotation="0" hflip="1" vflip="1" label="Capacitor-199" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-200" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="604,592" rotation="0" hflip="1" vflip="1" label="Capacitor-200" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-201" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="608,664" rotation="0" hflip="1" vflip="1" label="Capacitor-201" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-202" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="608,740" rotation="0" hflip="1" vflip="1" label="Capacitor-202" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Capacitor" CircId="Capacitor-282" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="612,816" rotation="0" hflip="1" vflip="1" label="Capacitor-202" idLabPos="-16,-24" labelrot="0" valLabPos="-3,13" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Push" CircId="Push-283" mainComp="false" Show_id="false" Show_Val="false" Pos="616,856" rotation="0" hflip="1" vflip="1" label="Push-61" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Resistor" CircId="Resistor-297" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="704,488" rotation="90" hflip="1" vflip="1" label="Resistor-55" idLabPos="-16,-24" labelrot="0" valLabPos="-7,48" valLabRot="270" Resistance="10000 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-372" mainComp="false" Show_id="false" Show_Val="false" Pos="936,764" rotation="0" hflip="1" vflip="1" label="LedRgb-372" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="0.03 A" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="0.03 A" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="0.03 A" Resistance_B="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-555" mainComp="false" Show_id="false" Show_Val="false" Pos="424,780" rotation="0" hflip="1" vflip="1" label="Ground-555" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-557" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="464,608" rotation="0" hflip="1" vflip="1" label="Capacitor-557" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" />
+
+<item itemtype="Resistor" CircId="Resistor-571" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="540,516" rotation="90" hflip="1" vflip="1" label="Resistor-55" idLabPos="-16,-24" labelrot="0" valLabPos="-7,48" valLabRot="270" Resistance="10000 Ω" />
+
+<item itemtype="Switch" CircId="Switch-581" mainComp="false" Show_id="false" Show_Val="false" Pos="464,696" rotation="0" hflip="1" vflip="1" label="Switch-581" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Node" CircId="Node-186" mainComp="false" Pos="660,404" />
+
+<item itemtype="Node" CircId="Node-189" mainComp="false" Pos="724,404" />
+
+<item itemtype="Node" CircId="Node-192" mainComp="false" Pos="752,404" />
+
+<item itemtype="Node" CircId="Node-195" mainComp="false" Pos="824,480" />
+
+<item itemtype="Node" CircId="Node-205" mainComp="false" Pos="752,496" />
+
+<item itemtype="Node" CircId="Node-209" mainComp="false" Pos="724,504" />
+
+<item itemtype="Node" CircId="Node-213" mainComp="false" Pos="660,524" />
+
+<item itemtype="Node" CircId="Node-217" mainComp="false" Pos="556,780" />
+
+<item itemtype="Node" CircId="Node-253" mainComp="false" Pos="552,624" />
+
+<item itemtype="Node" CircId="Node-256" mainComp="false" Pos="552,704" />
+
+<item itemtype="Node" CircId="Node-259" mainComp="false" Pos="568,548" />
+
+<item itemtype="Node" CircId="Node-262" mainComp="false" Pos="576,628" />
+
+<item itemtype="Node" CircId="Node-265" mainComp="false" Pos="572,700" />
+
+<item itemtype="Node" CircId="Node-268" mainComp="false" Pos="576,780" />
+
+<item itemtype="Node" CircId="Node-271" mainComp="false" Pos="640,548" />
+
+<item itemtype="Node" CircId="Node-274" mainComp="false" Pos="640,628" />
+
+<item itemtype="Node" CircId="Node-277" mainComp="false" Pos="644,700" />
+
+<item itemtype="Node" CircId="Node-280" mainComp="false" Pos="644,780" />
+
+<item itemtype="Node" CircId="Node-292" mainComp="false" Pos="580,856" />
+
+<item itemtype="Node" CircId="Node-295" mainComp="false" Pos="556,856" />
+
+<item itemtype="Node" CircId="Node-300" mainComp="false" Pos="704,404" />
+
+<item itemtype="Node" CircId="Node-361" mainComp="false" Pos="648,856" />
+
+<item itemtype="Node" CircId="Node-364" mainComp="false" Pos="704,512" />
+
+<item itemtype="Node" CircId="Node-378" mainComp="false" Pos="556,864" />
+
+<item itemtype="Node" CircId="Node-573" mainComp="false" Pos="628,404" />
+
+<item itemtype="Node" CircId="Node-579" mainComp="false" Pos="528,700" />
+
+<item itemtype="Node" CircId="Node-583" mainComp="false" Pos="504,700" />
+
+<item itemtype="Node" CircId="Node-586" mainComp="false" Pos="424,696" />
+
+<item itemtype="Connector" uid="connector-482" startpinid="Hd44780-5-PinEn" endpinid="mega328-3-PORTD7" pointList="948,432,948,540,808,540,808,688,840,688" />
+
+<item itemtype="Connector" uid="connector-483" startpinid="Hd44780-5-PinRS" endpinid="mega328-3-PORTD5" pointList="932,432,932,532,820,532,820,672,840,672" />
+
+<item itemtype="Connector" uid="connector-484" startpinid="Hd44780-5-PinRW" endpinid="mega328-3-PORTD6" pointList="940,432,940,552,828,552,828,680,840,680" />
+
+<item itemtype="Connector" uid="connector-485" startpinid="Hd44780-5-dataPin4" endpinid="mega328-3-PORTB4" pointList="988,432,988,672,888,672" />
+
+<item itemtype="Connector" uid="connector-486" startpinid="Hd44780-5-dataPin5" endpinid="mega328-3-PORTB5" pointList="996,432,996,664,888,664" />
+
+<item itemtype="Connector" uid="connector-487" startpinid="Hd44780-5-dataPin6" endpinid="mega328-3-PORTB6" pointList="1004,432,1004,724,784,724,784,656,840,656" />
+
+<item itemtype="Connector" uid="connector-488" startpinid="Hd44780-5-dataPin7" endpinid="mega328-3-PORTB7" pointList="1012,432,1012,740,792,740,792,664,840,664" />
+
+<item itemtype="Connector" uid="connector-489" startpinid="mega328-3-PORTC0" endpinid="Node-195-0" pointList="888,632,972,632,972,480,824,480" />
+
+<item itemtype="Connector" uid="connector-490" startpinid="Resistor-184-lPin" endpinid="Node-186-1" pointList="660,436,660,404" />
+
+<item itemtype="Connector" uid="connector-491" startpinid="Node-186-2" endpinid="Node-300-0" pointList="660,404,704,404" />
+
+<item itemtype="Connector" uid="connector-492" startpinid="Resistor-183-lPin" endpinid="Node-189-1" pointList="724,432,724,404" />
+
+<item itemtype="Connector" uid="connector-493" startpinid="Node-189-2" endpinid="Node-192-0" pointList="724,404,752,404" />
+
+<item itemtype="Connector" uid="connector-494" startpinid="Resistor-65-lPin" endpinid="Node-192-1" pointList="752,432,752,404" />
+
+<item itemtype="Connector" uid="connector-495" startpinid="Node-192-2" endpinid="Resistor-55-lPin" pointList="752,404,824,404,824,424" />
+
+<item itemtype="Connector" uid="connector-496" startpinid="Push-52-switch0pinN" endpinid="Node-271-0" pointList="624,548,640,548" />
+
+<item itemtype="Connector" uid="connector-497" startpinid="Node-195-2" endpinid="Resistor-55-rPin" pointList="824,480,824,456" />
+
+<item itemtype="Connector" uid="connector-498" startpinid="mega328-3-PORTC1" endpinid="Node-205-0" pointList="888,624,960,624,960,496,752,496" />
+
+<item itemtype="Connector" uid="connector-499" startpinid="Push-61-switch0pinN" endpinid="Node-274-0" pointList="624,628,640,628" />
+
+<item itemtype="Connector" uid="connector-500" startpinid="Node-205-2" endpinid="Resistor-65-rPin" pointList="752,496,752,464" />
+
+<item itemtype="Connector" uid="connector-501" startpinid="mega328-3-PORTC2" endpinid="Node-209-0" pointList="888,616,920,616,920,504,724,504" />
+
+<item itemtype="Connector" uid="connector-502" startpinid="Push-197-switch0pinN" endpinid="Node-277-0" pointList="624,700,644,700" />
+
+<item itemtype="Connector" uid="connector-503" startpinid="Node-209-2" endpinid="Resistor-183-rPin" pointList="724,504,724,464" />
+
+<item itemtype="Connector" uid="connector-504" startpinid="Push-198-switch0pinN" endpinid="Node-280-0" pointList="628,780,644,780" />
+
+<item itemtype="Connector" uid="connector-505" startpinid="mega328-3-PORTC3" endpinid="Node-213-1" pointList="888,608,908,608,908,524,660,524" />
+
+<item itemtype="Connector" uid="connector-506" startpinid="Node-213-2" endpinid="Resistor-184-rPin" pointList="660,524,660,468" />
+
+<item itemtype="Connector" uid="connector-507" startpinid="Push-198-pinP0" endpinid="Node-268-0" pointList="596,780,576,780" />
+
+<item itemtype="Connector" uid="connector-508" startpinid="Node-217-2" endpinid="Node-295-0" pointList="556,780,556,856" />
+
+<item itemtype="Connector" uid="connector-509" startpinid="Push-61-pinP0" endpinid="Node-262-0" pointList="592,628,576,628" />
+
+<item itemtype="Connector" uid="connector-510" startpinid="Node-253-2" endpinid="Node-256-0" pointList="552,624,552,704" />
+
+<item itemtype="Connector" uid="connector-511" startpinid="Push-197-pinP0" endpinid="Node-265-0" pointList="592,700,572,700" />
+
+<item itemtype="Connector" uid="connector-512" startpinid="Node-256-2" endpinid="Node-217-1" pointList="552,704,552,780,556,780" />
+
+<item itemtype="Connector" uid="connector-513" startpinid="Push-52-pinP0" endpinid="Node-259-0" pointList="592,548,568,548" />
+
+<item itemtype="Connector" uid="connector-514" startpinid="Capacitor-199-lPin" endpinid="Node-259-1" pointList="584,512,568,512,568,548" />
+
+<item itemtype="Connector" uid="connector-515" startpinid="Node-259-2" endpinid="Node-253-0" pointList="568,548,552,548,552,624" />
+
+<item itemtype="Connector" uid="connector-516" startpinid="Capacitor-200-lPin" endpinid="Node-262-1" pointList="588,592,576,592,576,628" />
+
+<item itemtype="Connector" uid="connector-517" startpinid="Node-262-2" endpinid="Node-253-1" pointList="576,628,552,628,552,624" />
+
+<item itemtype="Connector" uid="connector-518" startpinid="Capacitor-201-lPin" endpinid="Node-265-1" pointList="592,664,572,664,572,700" />
+
+<item itemtype="Connector" uid="connector-519" startpinid="Node-265-2" endpinid="Node-256-1" pointList="572,700,552,700,552,704" />
+
+<item itemtype="Connector" uid="connector-520" startpinid="Capacitor-202-lPin" endpinid="Node-268-1" pointList="592,740,576,740,576,780" />
+
+<item itemtype="Connector" uid="connector-521" startpinid="Node-268-2" endpinid="Node-217-0" pointList="576,780,556,780" />
+
+<item itemtype="Connector" uid="connector-522" startpinid="Capacitor-199-rPin" endpinid="Node-271-1" pointList="616,512,640,512,640,548" />
+
+<item itemtype="Connector" uid="connector-523" startpinid="Node-271-2" endpinid="Node-195-1" pointList="640,548,800,548,800,480,824,480" />
+
+<item itemtype="Connector" uid="connector-524" startpinid="Capacitor-200-rPin" endpinid="Node-274-1" pointList="620,592,640,592,640,628" />
+
+<item itemtype="Connector" uid="connector-525" startpinid="Node-274-2" endpinid="Node-205-1" pointList="640,628,752,628,752,496" />
+
+<item itemtype="Connector" uid="connector-526" startpinid="Capacitor-201-rPin" endpinid="Node-277-1" pointList="624,664,644,664,644,700" />
+
+<item itemtype="Connector" uid="connector-527" startpinid="Node-277-2" endpinid="Node-209-1" pointList="644,700,724,700,724,504" />
+
+<item itemtype="Connector" uid="connector-528" startpinid="Capacitor-202-rPin" endpinid="Node-280-1" pointList="624,740,644,740,644,780" />
+
+<item itemtype="Connector" uid="connector-529" startpinid="Node-280-2" endpinid="Node-213-0" pointList="644,780,660,780,660,524" />
+
+<item itemtype="Connector" uid="connector-530" startpinid="Push-283-pinP0" endpinid="Node-292-0" pointList="600,856,580,856" />
+
+<item itemtype="Connector" uid="connector-531" startpinid="Node-292-2" endpinid="Capacitor-282-lPin" pointList="580,856,580,816,596,816" />
+
+<item itemtype="Connector" uid="connector-532" startpinid="Node-292-1" endpinid="Node-295-1" pointList="580,856,556,856" />
+
+<item itemtype="Connector" uid="connector-533" startpinid="mega328-3-PORTC4" endpinid="Node-364-0" pointList="888,600,1048,600,1048,512,704,512" />
+
+<item itemtype="Connector" uid="connector-534" startpinid="Resistor-297-lPin" endpinid="Node-300-1" pointList="704,472,704,404" />
+
+<item itemtype="Connector" uid="connector-535" startpinid="Node-300-2" endpinid="Node-189-0" pointList="704,404,724,404" />
+
+<item itemtype="Connector" uid="connector-536" startpinid="Push-283-switch0pinN" endpinid="Node-361-0" pointList="632,856,648,856" />
+
+<item itemtype="Connector" uid="connector-537" startpinid="Node-361-2" endpinid="Capacitor-282-rPin" pointList="648,856,648,816,628,816" />
+
+<item itemtype="Connector" uid="connector-538" startpinid="Node-361-1" endpinid="Node-364-1" pointList="648,856,704,856,704,512" />
+
+<item itemtype="Connector" uid="connector-539" startpinid="Node-364-2" endpinid="Resistor-297-rPin" pointList="704,512,704,504" />
+
+<item itemtype="Connector" uid="connector-540" startpinid="Node-295-2" endpinid="Node-378-0" pointList="556,856,556,864" />
+
+<item itemtype="Connector" uid="connector-541" startpinid="LedRgb-372-Pin1" endpinid="mega328-3-PORTB0" pointList="920,764,820,764,820,696,840,696" />
+
+<item itemtype="Connector" uid="connector-542" startpinid="LedRgb-372-Pin0" endpinid="mega328-3-PORTB1" pointList="920,756,920,696,888,696" />
+
+<item itemtype="Connector" uid="connector-543" startpinid="LedRgb-372-Pin3" endpinid="Node-378-1" pointList="952,764,952,880,572,880,572,864,556,864" />
+
+<item itemtype="Connector" uid="connector-544" startpinid="mega328-3-PORTB2" endpinid="LedRgb-372-Pin2" pointList="888,688,920,688,920,772" />
+
+<item itemtype="Connector" uid="connector-545" startpinid="Node-378-2" endpinid="Ground-54-Gnd" pointList="556,864,556,892" />
+
+<item itemtype="Connector" uid="connector-547" startpinid="Rail-162-outnod" endpinid="Node-573-0" pointList="612,404,628,404" />
+
+<item itemtype="Connector" uid="Connector-572" startpinid="Resistor-571-lPin" endpinid="Node-573-1" pointList="540,500,628,500,628,404" />
+
+<item itemtype="Connector" uid="Connector-574" startpinid="Node-573-2" endpinid="Node-186-0" pointList="628,404,660,404" />
+
+<item itemtype="Connector" uid="Connector-575" startpinid="Resistor-571-rPin" endpinid="Node-579-0" pointList="540,532,540,700,528,700" />
+
+<item itemtype="Connector" uid="Connector-578" startpinid="mega328-3-PORTC5" endpinid="Node-579-1" pointList="888,592,1028,592,1028,884,528,884,528,700" />
+
+<item itemtype="Connector" uid="Connector-558" startpinid="Capacitor-557-lPin" endpinid="Node-586-0" pointList="448,608,424,608,424,696" />
+
+<item itemtype="Connector" uid="Connector-561" startpinid="Capacitor-557-rPin" endpinid="Node-583-0" pointList="480,608,504,608,504,700" />
+
+<item itemtype="Connector" uid="Connector-582" startpinid="Switch-581-switch0pinN" endpinid="Node-583-1" pointList="480,696,504,696,504,700" />
+
+<item itemtype="Connector" uid="Connector-584" startpinid="Node-583-2" endpinid="Node-579-2" pointList="504,700,528,700" />
+
+<item itemtype="Connector" uid="Connector-585" startpinid="Switch-581-pinP0" endpinid="Node-586-1" pointList="448,696,424,696" />
+
+<item itemtype="Connector" uid="Connector-587" startpinid="Node-586-2" endpinid="Ground-555-Gnd" pointList="424,696,424,764" />
+
+</circuit>
