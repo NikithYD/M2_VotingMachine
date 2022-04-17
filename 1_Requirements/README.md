@@ -18,4 +18,11 @@ Below chart shows the SWOT analysis of the project designed-
  * When- It will be helpful when lowcost, simple and economical voting is needed
  * Where- Useful in organizations, schools, colleges, offices for voting purpose
  * How - Implemented in voting spots inside room where user has to be present within the range of PIR sensor and can choose the necessary candidate with ease
+# High and Low Level Requirements
+ ## High Level Requirements
+
   
+![Screenshot (1223)](https://user-images.githubusercontent.com/68335075/163704320-613ad11f-8cb5-4916-b78e-678b7d8b0c2b.png)
+
+ ## Low Level Requirements
+ ![Screenshot (1224)](https://user-images.githubusercontent.com/68335075/163704354-f98a4540-9596-4bc7-8274-f41bb5032924.png)
