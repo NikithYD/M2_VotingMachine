@@ -8,7 +8,7 @@ SRC = main.c\
 
 
 # All header file paths
-INC = 3_Implementation/inc
+INC = 3_Implementation/-I inc
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
