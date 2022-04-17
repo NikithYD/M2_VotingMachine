@@ -3,12 +3,12 @@ PROJ_NAME = EVM
 BUILD_DIR = Build
 
 # All Source code files
-SRC = project_main.c\
+SRC = main.c\
 
 
 
 # All header file paths
-INC = -I inc
+INC = 3_Implementation/inc
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
