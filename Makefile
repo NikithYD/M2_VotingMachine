@@ -3,7 +3,8 @@ PROJ_NAME = EVM
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
+SRC = src/main.c
+
 
 
 # All header file paths
